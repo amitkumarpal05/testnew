@@ -1,0 +1,5 @@
+#ubuntu based Hello world container
+FROM ubuntu:15.04
+MAINTAINER amit_kumar_pal@hotmail.com
+RUN apt-get update
+CMD ["echo","Hello World"]
